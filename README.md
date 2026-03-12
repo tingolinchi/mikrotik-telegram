@@ -5,7 +5,7 @@ Tested on RouterOS 7.21.1 with Surfshark Wireguard VPN and native /interface/wif
 ---
 
 ## ✨ Features
-- 🔴🟢 **VPN monitoring** — instant alerts when Surfshark Wireguard VPN goes down or recovers
+- 🔴🟢 **VPN monitoring** — instant alerts when Wireguard VPN goes down or recovers
 - 📶🔌 **Device monitoring** — notifications when devices connect or disconnect via WiFi or Ethernet
 - 📊 **Remote status** — CPU, RAM, uptime, VPN state, WiFi state and connected clients on demand
 - 🔄 **Remote reboot** — safely reboot the router from Telegram
@@ -93,7 +93,7 @@ Emoji	Event
 
 ## ⚙️ Requirements
 - MikroTik RouterOS 7.x (tested on 7.21.1)
-- Surfshark Wireguard VPN configured with at least one peer
+- Wireguard VPN configured with at least one peer
 - Internet access from the router
 - WiFi using native /interface/wifi driver (not CAPsMAN)
 
