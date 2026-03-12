@@ -83,19 +83,19 @@ You should receive a confirmation message in Telegram. ✅
 
 ## 🔔 Automatic Alerts
 Emoji	Event
-🔴	VPN down
-🟢	VPN recovered / Router started
-📶	WiFi device connected
-📴	WiFi device disconnected
-🔌	Ethernet device connected/disconnected
+- 🔴	VPN down
+- 🟢	VPN recovered / Router started
+- 📶	WiFi device connected
+- 📴	WiFi device disconnected
+- 🔌	Ethernet device connected/disconnected
 
 ---
 
 ## ⚙️ Requirements
-·	MikroTik RouterOS 7.x (tested on 7.21.1)
-·	Surfshark Wireguard VPN configured with at least one peer
-·	Internet access from the router
-·	WiFi using native /interface/wifi driver (not CAPsMAN)
+- MikroTik RouterOS 7.x (tested on 7.21.1)
+- Surfshark Wireguard VPN configured with at least one peer
+- Internet access from the router
+- WiFi using native /interface/wifi driver (not CAPsMAN)
 
 ---
 
