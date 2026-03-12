@@ -120,17 +120,17 @@ Both files are created automatically. Deleting them is safe — they will be rec
 
 ## 🛠 Troubleshooting
 Bot not responding
-·	Check tgCommands scheduler is active in System → Scheduler
-·	Verify TOKEN and CHAT_ID in config.rsc
-·	Check /log/print for connection errors
+- Check tgCommands scheduler is active in System → Scheduler
+- Verify TOKEN and CHAT_ID in config.rsc
+- Check /log/print for connection errors
 No VPN alerts
-·	Verify vpnInterface matches exactly the name in /interface/wireguard/
-·	Run config manually to reinitialize global variables
+- Verify vpnInterface matches exactly the name in /interface/wireguard/
+- Run config manually to reinitialize global variables
 Devices not detected
-·	Verify wifi24Interface and wifi5Interface names in config.rsc
-·	Confirm interfaces use /interface/wifi driver (not CAPsMAN)
+- Verify wifi24Interface and wifi5Interface names in config.rsc
+- Confirm interfaces use /interface/wifi driver (not CAPsMAN)
 WiFi commands failing
-·	This system uses /interface/wifi — if you use CAPsMAN, adapt the commands to /interface/cap
+- This system uses /interface/wifi — if you use CAPsMAN, adapt the commands to /interface/cap
 
 ---
 
