@@ -102,8 +102,8 @@ Emoji	Event
 ## 🌍 Adding a New VPN Server
 Copy any vpn_*.rsc script, rename it and change the targetPeer value:
  
-**SCRIPT: vpn_mad**
-:local targetPeer "wireguard-peer-MAD"
+- **SCRIPT:** vpn_mad
+- **:local targetPeer** "wireguard-peer-MAD"
 
 The script name becomes the Telegram command: vpn_mad → /vpn_mad
 
@@ -111,8 +111,8 @@ The script name becomes the Telegram command: vpn_mad → /vpn_mad
 
 ## 📂 Persistent Files
 File	Purpose
-tg_offset.txt	Last processed Telegram update ID — prevents duplicate processing
-deviceList.txt	Currently connected devices — enables connect/disconnect detection
+- **tg_offset.txt**	Last processed Telegram update ID — prevents duplicate processing
+- **deviceList.txt**	Currently connected devices — enables connect/disconnect detection
 
 Both files are created automatically. Deleting them is safe — they will be recreated on the next execution.
 
