@@ -101,7 +101,8 @@ Emoji	Event
 
 ## 🌍 Adding a New VPN Server
 Copy any vpn_*.rsc script, rename it and change the targetPeer value:
-# SCRIPT: vpn_mad
+ 
+**SCRIPT: vpn_mad**
 :local targetPeer "wireguard-peer-MAD"
 
 The script name becomes the Telegram command: vpn_mad → /vpn_mad
