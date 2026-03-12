@@ -6,32 +6,54 @@ Tested on RouterOS 7.21.1 with Surfshark Wireguard VPN and native /interface/wif
 
 ## ✨ Features
 ·	🔴🟢 VPN monitoring — instant alerts when Surfshark Wireguard VPN goes down or recovers
+
 ·	📶🔌 Device monitoring — notifications when devices connect or disconnect via WiFi or Ethernet
+
 ·	📊 Remote status — CPU, RAM, uptime, VPN state, WiFi state and connected clients on demand
+
 ·	🔄 Remote reboot — safely reboot the router from Telegram
+
 ·	📶 WiFi control — enable/disable 2.4GHz and 5GHz interfaces remotely
+
 ·	🌍 VPN switching — switch between Surfshark VPN peers with a single command
+
 ·	👥 Client list — view all connected devices with MAC, IP, hostname and signal strength
+
 ·	💾 State persistence — device list and Telegram offset stored in files, survive reboots
 
 ---
 
 ## 📁 Scripts
 Script	Interval	Description
+
 config	At startup	Global configuration variables
+
 tgSend	On demand	Sends messages to Telegram API
+
 monitorVPN	30s	Detects VPN outages and recoveries
+
 monitorDevices	15s	Detects device connections/disconnections
+
 tgCommands	5s	Telegram polling — receives and dispatches commands
+
 startupMsg	At startup	Sends startup notification
+
 install	Manual	Creates all schedulers automatically
+
 help	On demand	Lists all available commands
+
 status	On demand	Full system status report
+
 log	On demand	Last 20 system log entries
+
 reboot	On demand	Reboots the router
+
 wifi24on/off	On demand	Enable/disable 2.4GHz WiFi
+
 wifi5on/off	On demand	Enable/disable 5GHz WiFi
+
 vpn_bcn	On demand	Switch to Surfshark VPN Barcelona (Example)
+
 clients_connected	On demand	Show all connected devices
 
 ---
@@ -163,4 +185,8 @@ The license includes an additional disclaimer covering device warranty, privacy 
 If you enjoy this project, please consider supporting its maintenance with a donation. Thanks!!
 
 Click [here](https://www.paypal.com/donate/?hosted_button_id=UUDC75BZZK2Q8) or use the below QR code or push the button to donate via PayPal
+
+<img width="128" height="128" alt="QRcode" src="https://github.com/user-attachments/assets/5e08ec5c-8d72-4cc9-9c28-e6b8da8e5345" />
+
+[![Donate with PayPal](https://www.paypalobjects.com/en_US/ES/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=UUDC75BZZK2Q8)
 
