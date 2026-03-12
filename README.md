@@ -17,22 +17,22 @@ Tested on RouterOS 7.21.1 with Surfshark Wireguard VPN and native /interface/wif
 ---
 
 ## 📁 Scripts
-- Script	Interval	Description
-- config	At startup	Global configuration variables
-- tgSend	On demand	Sends messages to Telegram API
-- monitorVPN	30s	Detects VPN outages and recoveries
-- monitorDevices	15s	Detects device connections/disconnections
-- tgCommands	5s	Telegram polling — receives and dispatches commands
-- startupMsg	At startup	Sends startup notification
-- install	Manual	Creates all schedulers automatically
-- help	On demand	Lists all available commands
-- status	On demand	Full system status report
-- log	On demand	Last 20 system log entries
-- reboot	On demand	Reboots the router
-- wifi24on/off	On demand	Enable/disable 2.4GHz WiFi
-- wifi5on/off	On demand	Enable/disable 5GHz WiFi
-- vpn_bcn	On demand	Switch to Surfshark VPN Barcelona (Example)
-- clients_connected	On demand	Show all connected devices
+Script	Interval	Description
+- **config**	At startup	Global configuration variables
+- **tgSend**	On demand	Sends messages to Telegram API
+- **monitorVPN**	30s	Detects VPN outages and recoveries
+- **monitorDevices**	15s	Detects device connections/disconnections
+- **tgCommands**	5s	Telegram polling — receives and dispatches commands
+- **startupMsg**	At startup	Sends startup notification
+- **install**	Manual	Creates all schedulers automatically
+- **help**	On demand	Lists all available commands
+- **status**	On demand	Full system status report
+- **log**	On demand	Last 20 system log entries
+- **reboot**	On demand	Reboots the router
+- **wifi24on/off**	On demand	Enable/disable 2.4GHz WiFi
+- **wifi5on/off**	On demand	Enable/disable 5GHz WiFi
+- **vpn_bcn**	On demand	Switch to Surfshark VPN Barcelona (Example)
+- **clients_connected**	On demand	Show all connected devices
 
 ---
 
