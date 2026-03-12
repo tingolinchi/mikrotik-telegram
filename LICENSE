@@ -1,4 +1,4 @@
-MIT License
+# MIT License
 
 Copyright (c) 2026
 
@@ -22,40 +22,73 @@ SOFTWARE.
 
 ---
 
-ADDITIONAL DISCLAIMER
+# ADDITIONAL DISCLAIMER
 
-This project is an unofficial modification for the Yi Home 1080p camera and is
-not affiliated with, endorsed by, or supported by Yi Technology Co., Ltd. or
-any of its subsidiaries.
+This project provides a set of scripts for **MikroTik RouterOS 7.x** that enable
+router monitoring, device tracking, and remote management via a Telegram bot.
+It is an independent project and is **not affiliated with, endorsed by, or
+supported by MikroTik, Surfshark, Telegram, or any of their respective
+companies or subsidiaries**.
 
-1. NO WARRANTY
-   This software is provided without any warranty of any kind. The authors
-   make no representations or guarantees regarding the functionality,
-   reliability, or fitness for any particular purpose of this software.
+## 1. NO WARRANTY
 
-2. DEVICE WARRANTY
-   Installing this software on your camera may void the manufacturer's
-   warranty. You accept full responsibility for any damage to your device
-   resulting from the use of this software.
+This software is provided without any warranty of any kind. The authors make no
+representations or guarantees regarding the functionality, reliability,
+availability, or fitness for any particular purpose of this software. The
+software is provided for educational and administrative purposes only.
 
-3. PRIVACY AND LEGAL COMPLIANCE
-   This software enables audio and video recording, motion detection, and
-   remote monitoring capabilities. It is your sole responsibility to:
-   - Comply with all applicable local, national, and international laws
-     regarding audio/video recording and surveillance.
-   - Obtain any necessary consent from individuals who may be recorded.
-   - Ensure the system is used in a lawful and ethical manner.
-   The authors accept no liability for any unlawful use of this software.
+## 2. DEVICE AND NETWORK RESPONSIBILITY
 
-4. SECURITY
-   You are solely responsible for securing access to your Telegram bot,
-   credentials, and camera. The authors accept no liability for any
-   unauthorised access, data breach, or misuse resulting from insecure
-   configuration or deployment of this software.
+Installing and running these scripts modifies the behavior of your router and
+network infrastructure. Misconfiguration may lead to service interruptions,
+loss of connectivity, or unintended network behavior.
 
-5. LIMITATION OF LIABILITY
-   Under no circumstances shall the authors or contributors be liable for
-   any direct, indirect, incidental, special, exemplary, or consequential
-   damages (including but not limited to loss of data, loss of privacy,
-   device damage, or financial loss) arising from the use or inability to
-   use this software, even if advised of the possibility of such damages.
+You accept full responsibility for any damage, downtime, or network issues
+resulting from the installation or use of this software.
+
+## 3. PRIVACY AND NETWORK MONITORING
+
+This software can monitor network devices, including WiFi and Ethernet clients,
+and report information such as IP address, MAC address, hostname, and signal
+strength.
+
+It is your sole responsibility to:
+
+- Comply with all applicable local, national, and international laws regarding
+  network monitoring and data collection.
+- Inform network users where required by law or organizational policy.
+- Ensure the system is used in a lawful, transparent, and ethical manner.
+
+The authors accept no liability for any misuse of this software or for any
+violations of privacy or data protection regulations.
+
+## 4. TELEGRAM BOT SECURITY
+
+This system requires a Telegram bot token and chat ID in order to operate.
+
+You are solely responsible for:
+
+- Protecting your Telegram bot token and access credentials
+- Restricting access to the bot
+- Securing your router and network environment
+
+The authors accept no liability for unauthorized access, misuse of the bot,
+or any consequences resulting from insecure configuration.
+
+## 5. VPN MANAGEMENT
+
+The scripts may enable or disable configured WireGuard VPN peers on the router.
+Improper configuration may disrupt connectivity or route traffic through
+unintended networks.
+
+You are responsible for verifying that your VPN configuration, routing rules,
+and security policies are correct before using these scripts.
+
+## 6. LIMITATION OF LIABILITY
+
+Under no circumstances shall the authors or contributors be liable for any
+direct, indirect, incidental, special, exemplary, or consequential damages
+(including but not limited to loss of connectivity, network downtime,
+loss of data, privacy issues, or financial loss) arising from the use or
+inability to use this software, even if advised of the possibility of such
+damages.
