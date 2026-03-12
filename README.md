@@ -10,7 +10,7 @@ Tested on RouterOS 7.21.1 with Surfshark Wireguard VPN and native /interface/wif
 - 📊 **Remote status** — CPU, RAM, uptime, VPN state, WiFi state and connected clients on demand
 - 🔄 **Remote reboot** — safely reboot the router from Telegram
 - 📶 **WiFi control** — enable/disable 2.4GHz and 5GHz interfaces remotely
-- 🌍 **VPN switching** — switch between Surfshark VPN peers with a single command
+- 🌍 **VPN switching** — switch between Wireguard VPN peers with a single command
 - 👥 **Client list** — view all connected devices with MAC, IP, hostname and signal strength
 - 💾 **State persistence** — device list and Telegram offset stored in files, survive reboots
 
