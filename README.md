@@ -61,11 +61,11 @@ Script	Interval	Description
 
 ### 2. Configure the scripts
 Edit config.rsc with your data:
-:global tgToken "YOUR_BOT_TOKEN"
-:global tgChatId "YOUR_CHAT_ID"
-:global vpnInterface "wireguard-surfshark"
-:global wifi24Interface "wifi2"
-:global wifi5Interface "wifi1"
+- :global tgToken "YOUR_BOT_TOKEN"
+- :global tgChatId "YOUR_CHAT_ID"
+- :global vpnInterface "wireguard-surfshark"
+- :global wifi24Interface "wifi2"
+- :global wifi5Interface "wifi1"
 
 ### 3. Load scripts into RouterOS
 In Winbox or WebFig, go to System → Scripts and create one script per .rsc file, using the filename (without .rsc) as the script name.
