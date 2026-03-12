@@ -5,56 +5,34 @@ Tested on RouterOS 7.21.1 with Surfshark Wireguard VPN and native /interface/wif
 ---
 
 ## ✨ Features
-·	🔴🟢 VPN monitoring — instant alerts when Surfshark Wireguard VPN goes down or recovers
-
-·	📶🔌 Device monitoring — notifications when devices connect or disconnect via WiFi or Ethernet
-
-·	📊 Remote status — CPU, RAM, uptime, VPN state, WiFi state and connected clients on demand
-
-·	🔄 Remote reboot — safely reboot the router from Telegram
-
-·	📶 WiFi control — enable/disable 2.4GHz and 5GHz interfaces remotely
-
-·	🌍 VPN switching — switch between Surfshark VPN peers with a single command
-
-·	👥 Client list — view all connected devices with MAC, IP, hostname and signal strength
-
-·	💾 State persistence — device list and Telegram offset stored in files, survive reboots
+- 🔴🟢 **VPN monitoring** — instant alerts when Surfshark Wireguard VPN goes down or recovers
+- 📶🔌 **Device monitoring** — notifications when devices connect or disconnect via WiFi or Ethernet
+- 📊 **Remote status** — CPU, RAM, uptime, VPN state, WiFi state and connected clients on demand
+- 🔄 **Remote reboot** — safely reboot the router from Telegram
+- 📶 **WiFi control** — enable/disable 2.4GHz and 5GHz interfaces remotely
+- 🌍 **VPN switching** — switch between Surfshark VPN peers with a single command
+- 👥 **Client list** — view all connected devices with MAC, IP, hostname and signal strength
+- 💾 **State persistence** — device list and Telegram offset stored in files, survive reboots
 
 ---
 
 ## 📁 Scripts
-Script	Interval	Description
-
-config	At startup	Global configuration variables
-
-tgSend	On demand	Sends messages to Telegram API
-
-monitorVPN	30s	Detects VPN outages and recoveries
-
-monitorDevices	15s	Detects device connections/disconnections
-
-tgCommands	5s	Telegram polling — receives and dispatches commands
-
-startupMsg	At startup	Sends startup notification
-
-install	Manual	Creates all schedulers automatically
-
-help	On demand	Lists all available commands
-
-status	On demand	Full system status report
-
-log	On demand	Last 20 system log entries
-
-reboot	On demand	Reboots the router
-
-wifi24on/off	On demand	Enable/disable 2.4GHz WiFi
-
-wifi5on/off	On demand	Enable/disable 5GHz WiFi
-
-vpn_bcn	On demand	Switch to Surfshark VPN Barcelona (Example)
-
-clients_connected	On demand	Show all connected devices
+- Script	Interval	Description
+- config	At startup	Global configuration variables
+- tgSend	On demand	Sends messages to Telegram API
+- monitorVPN	30s	Detects VPN outages and recoveries
+- monitorDevices	15s	Detects device connections/disconnections
+- tgCommands	5s	Telegram polling — receives and dispatches commands
+- startupMsg	At startup	Sends startup notification
+- install	Manual	Creates all schedulers automatically
+- help	On demand	Lists all available commands
+- status	On demand	Full system status report
+- log	On demand	Last 20 system log entries
+- reboot	On demand	Reboots the router
+- wifi24on/off	On demand	Enable/disable 2.4GHz WiFi
+- wifi5on/off	On demand	Enable/disable 5GHz WiFi
+- vpn_bcn	On demand	Switch to Surfshark VPN Barcelona (Example)
+- clients_connected	On demand	Show all connected devices
 
 ---
 
