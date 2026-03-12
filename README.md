@@ -37,15 +37,16 @@ Tested on RouterOS 7.21.1 with Surfshark Wireguard VPN and native /interface/wif
 ---
 
 ## 💬 Telegram Commands
-Command	Description
-/help	Show all available commands
-/status	CPU, RAM, uptime, VPN, WiFi and client count
-/log	Last 20 system log entries
-/reboot	Reboot the router (3s delay)
-/wifi24on/wifi24off	Enable/disable 2.4GHz WiFi
-/wifi5on/wifi5off	Enable/disable 5GHz WiFi
-/vpn_bcn	Switch active VPN peer
-/clients_connected	List all connected devices with MAC, IP, hostname
+| Command | Description |
+|---|---|
+| `/help` | Show all available commands |
+| `/status` | CPU, RAM, uptime, VPN, WiFi and client count |
+| `/log` | Last 20 system log entries |
+| `/reboot` | Reboot the router (3s delay) |
+| `/wifi24on/wifi24off` | Enable/disable 2.4GHz WiFi |
+| `/wifi5on/wifi5off` | Enable/disable 5GHz WiFi |
+| `/vpn_bcn` | Switch active VPN peer |
+| `/clients_connected` | List all connected devices with MAC, IP, hostname |
 
 ---
 
